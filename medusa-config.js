@@ -34,15 +34,15 @@ const DATABASE_URL =
 const REDIS_URL = process.env.REDIS_URL || "redis://default:iZArlrSBnMMwrPrUHIbaltmRuFKjiMhv@monorail.proxy.rlwy.net:40536";
 
 const plugins = [
-  `medusa-fulfillment-manual`,
-  `medusa-payment-manual`,
+  // `medusa-fulfillment-manual`,  // Disabled to conserve memory
+  // `medusa-payment-manual`,      // Disabled to conserve memory
   {
     resolve: `@medusajs/file-local`,
     options: {
       upload_dir: "uploads",
     },
   },
-  // Remove the @medusajs/admin entry here
+  // `@medusajs/admin` also removed if not required
 ];
 
 
