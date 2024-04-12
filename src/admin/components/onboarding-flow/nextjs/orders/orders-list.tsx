@@ -55,7 +55,7 @@ const OrdersListNextjs = ({ isComplete, data }: StepContentProps) => {
       <div className="flex gap-2">
         {!isComplete && (
           <a
-            href={`http://localhost:8000/checkout?cart_id=${cartId}&onboarding=true`}
+            href={`http://idempire.us/checkout?cart_id=${cartId}&onboarding=true`}
             target="_blank"
           >
             <Button variant="primary" size="base" isLoading={!cartId || cartIsLoading}>
