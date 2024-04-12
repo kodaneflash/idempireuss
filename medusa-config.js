@@ -31,7 +31,7 @@ const STORE_CORS = process.env.STORE_CORS || "https://idempire:us";
 const DATABASE_URL =
   process.env.DATABASE_URL || "postgresql://postgres:OfNKLWLeksqnrHWBGwCVKZdCrQlrcLzH@roundhouse.proxy.rlwy.net:24764/railway";
 
-const REDIS_URL = process.env.REDIS_URL || "usw2-advanced-ibex-31770.upstash.io";
+const REDIS_URL = process.env.REDIS_URL || "redis://default:iZArlrSBnMMwrPrUHIbaltmRuFKjiMhv@monorail.proxy.rlwy.net:40536";
 
 const plugins = [
   `medusa-fulfillment-manual`,
